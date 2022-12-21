@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form page</title>
+<style>
+   .Container{
+	width:40%;
+	border:1px solid black;
+	margin: auto;
+	padding:20px;
+	}
+</style>
+</head>
+<body>
+<div Class="Container">
+
+<h1>
+My Form
+</h1>
+<form action="RegisterServlet1" method="post">
+<tr>
+<td>
+       Select sport
+</td> 
+<select name="user_sport">
+<option value="Cricket">Cricket</option>
+<option value="FootBall">FootBall</option>
+<option value="Kabbaddi">Kabbaddi</option>
+<option value="Hockey">Hockey</option>
+
+</select>
+</tr>
+<br>
+<br>
+<tr>
+<td>Enter Player Name:</td>
+<td><input type="text" name="user_name" placeholder	="Enter Here"/></td>
+</tr>
+<br>
+<br>
+<tr>
+<td>Enter Country Name:</td>
+<td><input type="text" name="user_Country" placeholder	="Enter Here"/></td>
+</tr>
+<br> 
+<br>
+<tr>
+<td>Enter Gender:</td>
+<td><input type="radio" name="user_gender" value="male">Male &nbsp;&nbsp;<input type="radio" name="user_gender" value="Female"> Female</td>
+</tr>
+<br>
+<br>
+<tr>
+<td>
+</td>
+<td> 
+<button type="Submit">Submit</button>
+<button type="reset">reset</button> 
+</td>
+</tr>
+</form>
+</div>
+</body>
+</html>
